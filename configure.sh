@@ -108,6 +108,6 @@ cat << EOF > /usr/local/etc/v2ray/config.json
 }
 
 EOF
-
+echo port is $PORT
 # Run V2Ray
 /usr/local/bin/v2ray -config /usr/local/etc/v2ray/config.json
